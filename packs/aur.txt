@@ -1,0 +1,6 @@
+dms-shell-bin-debug 1.2.2-1
+floorp-bin 12.10.2-1
+swaylock-effects-git r470.496059a-1
+swaylock-effects-git-debug r470.496059a-1
+yay-bin 12.5.7-1
+yay-bin-debug 12.5.7-1

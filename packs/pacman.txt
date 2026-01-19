@@ -8,7 +8,6 @@ cliphist
 efibootmgr
 fastfetch
 fish
-floorp-bin
 git
 impala
 iwd
@@ -20,7 +19,6 @@ nano
 niri
 rofi
 sudo
-swaylock-effects-git
 swww
 thunar
 ttf-hack-nerd
@@ -31,6 +29,4 @@ wl-clipboard
 xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
 xwayland-satellite
-yay-bin
-yay-bin-debug
 zram-generator

@@ -26,6 +26,8 @@ ttf-nerd-fonts-symbols-common
 waybar
 wev
 wl-clipboard
+xorg-server
+xorg-xauth
 xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
 xwayland-satellite

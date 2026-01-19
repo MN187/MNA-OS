@@ -8,9 +8,7 @@ cliphist
 efibootmgr
 fastfetch
 fish
-git
 impala
-iwd
 linux
 linux-firmware
 ly

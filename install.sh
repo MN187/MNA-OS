@@ -18,7 +18,7 @@ then
 fi
 
 # install pacman packages
-cat temp.pac | sudo pacman -Sy - --no-confirm
+cat temp.pac | sudo pacman -Sy -
 
 # install AUR packages
 sudo pacman -Sy --needed base-devel

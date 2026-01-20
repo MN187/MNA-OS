@@ -1,5 +1,7 @@
 #! /bin/bash
 
+#error encounter
+set -euo pipefail
 # create temporary install list
 cat packs/pacman.txt > temp.pac
 cat packs/aur.txt > temp.aur

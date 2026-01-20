@@ -27,7 +27,7 @@ cd yay
 makepkg -si
 cd ..
 
-cat temp.aur | yay -Sy - --noprovides --answerdiff None --answerclean None --mflags "--noconfirm"
+cat temp.aur | yay -Sy - --answerdiff None --answerclean None --mflags "--noconfirm"
 
 # apply configs
 sudo pacman -Sy --needed rsync --noconfirm

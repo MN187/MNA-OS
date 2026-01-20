@@ -350,8 +350,8 @@ binds {
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
-    Alt+Space hotkey-overlay-title="Run an Application: open-rofi" { spawn-sh "rofi -show drun"; }
-    Mod+Space hotkey-overlay-title="Run an Application: Open-rofi Window" { spawn-sh "rofi -show window"; }
+    Alt+Space hotkey-overlay-title="Open rofi drun" { spawn-sh "rofi -show drun"; }
+    Mod+Space hotkey-overlay-title="Open rofi Window" { spawn-sh "rofi -show window"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn-sh "swaylock --screenshot --clock --indicator --datestr %d%.%m.%Y --fade-in 0.3"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
@@ -602,7 +602,7 @@ binds {
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 
     // The quit action will show a confirmation dialog to avoid accidental exits.
-    Mod+Shift+E { quit; }
+    Mod+Alt+Delete hotkey-overlay-title="Open Power Menu" { spawn-sh "rofi -show p -modi p:rofi-power-menu"; }
     Ctrl+Alt+Delete { quit; }
 
     // Powers off the monitors. To turn them back on, do any input like

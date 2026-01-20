@@ -1,3 +1,4 @@
 dms-shell-bin-debug
 floorp-bin
 swaylock-effects-git
+rofi-power-menu

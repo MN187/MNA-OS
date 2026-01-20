@@ -42,12 +42,6 @@ sudo make install
 cd ..
 sudo rm -r pipes.sh
 
-
-#Set Rofi Power Menu (comming soon)
-#chmod +x /usr/bin/rofi-power-menu
-#gsettings set org.gnome.desktop.interface gtk-theme RetroDark
-#gsettings set org.gnome.desktop.interface icon-theme RetroDark
-
 sudo locale-gen
 
 chsh -s /usr/bin/fish

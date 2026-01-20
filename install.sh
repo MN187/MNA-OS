@@ -32,7 +32,15 @@ cat temp.aur | yay -Sy - --noprovides --answerdiff None --answerclean None --mfl
 # apply configs
 sudo pacman -Sy --needed rsync
 
+
 su -c 'rsync -cr root/ / -v'
+
+# install pipes.sh
+git clone https://github.com/pipeseroni/pipes.sh
+cd pipes.sh
+sudo make install
+cd ..
+sudo rm -r pipes.sh
 
 
 #Set Rofi Power Menu (comming soon)
@@ -42,8 +50,7 @@ su -c 'rsync -cr root/ / -v'
 
 sudo locale-gen
 
-
-sudo chsh -s /usr/bin/fish
+chsh -s /usr/bin/fish
 
 # apply services
 sudo systemctl disable getty@tty1.service

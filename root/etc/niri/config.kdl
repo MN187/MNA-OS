@@ -260,7 +260,7 @@ layout {
     }
 }
 
-spawn-at-startup "waybar" "-c" "/etc/waybar/config.jsonc" "-s" "/etc/waybar/style.css"
+spawn-at-startup "waybar" "-c" "/etc/xdg/waybar/config.jsonc" "-s" "/etc/xdg/waybar/style.css"
 spawn-at-startup "swww-daemon"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:

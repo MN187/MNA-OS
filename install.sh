@@ -18,7 +18,7 @@ then
 fi
 
 # install pacman packages
-cat temp.pac | sudo pacman -Sy -
+cat temp.pac | sudo pacman -Sy - --no-confirm
 
 # install AUR packages
 sudo pacman -Sy --needed base-devel
@@ -27,7 +27,7 @@ cd yay
 makepkg -si
 cd ..
 
-cat temp.aur | yay -Sy -
+cat temp.aur | yay -Sy - --noprovides --answerdiff None --answerclean None --mflags "--noconfirm"
 
 # apply configs
 sudo pacman -Sy --needed rsync

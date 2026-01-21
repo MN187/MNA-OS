@@ -13,7 +13,7 @@ linux
 linux-firmware
 ly
 matugen
-nano
+neovim
 niri
 rofi
 sudo

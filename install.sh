@@ -1,5 +1,8 @@
 #! /bin/bash
 
+#remove the repository 1
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 #error encounter
 set -euo pipefail
 # create temporary install list
@@ -58,3 +61,19 @@ sudo systemctl disable getty@tty3.service
 sudo systemctl enable ly@tty1.service
 sudo systemctl enable ly@tty2.service
 sudo systemctl enable ly@tty3.service
+
+echo
+read -p "MN-OS installed. Reboot now? [y/n] " -n 1 -r
+echo
+
+#remove the repository 2
+echo "Removing installation repository..."
+sudo rm -rf "$SCRIPT_DIR"
+
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+    echo "Rebooting system..."
+    reboot
+else
+    echo "Installation finished."
+    echo "Please reboot the system to start using MN-OS."
+fi

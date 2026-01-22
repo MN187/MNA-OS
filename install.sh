@@ -55,6 +55,7 @@ sudo bash -c 'while read -r f; do rm -f "/usr/share/applications/$f"; done < tem
 
 
 # apply services
+systemctl --user enable pipewire pipewire-pulse wireplumber
 sudo systemctl disable getty@tty1.service
 sudo systemctl disable getty@tty2.service
 sudo systemctl disable getty@tty3.service

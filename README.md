@@ -8,14 +8,14 @@
 This is an install script with accompanying dotfiles for my personal Arch Linux configuration.
 
 |---|---|---|
-| Distro | [Arch](https://archlinux.org/)|
-| WM | [Niri](https://github.com/YaLTeR/niri)|
-| Terminal | [alacritty](https://github.com/alacritty/alacritty)|
-| Bar | [waybar](https://github.com/Alexays/Waybar/)|
-| Menu | [rofi](https://davatorium.github.io/rofi/)|
-| Notification | [mako](https://github.com/emersion/mako/)|
-| File Manager | [Thunar](https://docs.xfce.org/xfce/thunar/start)|
-| Lockscreen | [swaylock](https://github.com/swaywm/swaylock)|
+| Distro | [Arch](https://archlinux.org/) |
+| WM | [Niri](https://github.com/YaLTeR/niri) |
+| Terminal | [alacritty](https://github.com/alacritty/alacritty) |
+| Bar | [waybar](https://github.com/Alexays/Waybar/) |
+| Menu | [rofi](https://davatorium.github.io/rofi/) |
+| Notification | [mako](https://github.com/emersion/mako/) |
+| File Manager | [Thunar](https://docs.xfce.org/xfce/thunar/start) |
+| Lockscreen | [swaylock](https://github.com/swaywm/swaylock) |
 
 > [!NOTE]
 > my package list can be found in [pacman.txt](https://github.com/MN187/MN-OS/blob/main/packs/pacman.txt) & [aur.txt](https://github.com/MN187/MN-OS/blob/main/packs/aur.txt)

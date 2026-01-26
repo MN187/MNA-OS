@@ -38,8 +38,8 @@ Follow the official [Arch Linux Installation Guide](https://wiki.archlinux.org/t
 - `cd MN-OS`
 - `chmod +x install.sh`
 - install using `./install.sh`
+
 > [!NOTE]
-  
 > The script will ask you for your set password. 
 - For any `[y/n]` prompt during installation (including “Do you want to remove make dependencies?”), respond with `y`.
 

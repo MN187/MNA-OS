@@ -68,7 +68,7 @@ sudo systemctl enable ly@tty3.service
 sudo systemctl enable bluetooth
 
 echo
-read -p "MN-OS installed. Reboot now? [y/n] " -n 1 -r
+read -p "MNA-OS installed. Reboot now? [y/n] " -n 1 -r
 echo
 
 #remove the repository 2
